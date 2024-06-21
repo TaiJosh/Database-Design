@@ -25,9 +25,21 @@ Userlogin      char(15),
 UserPassword   varchar(20)
 )
 
+
 ALTER TABLE  LoginAccount
 ADD CONSTRAINT FK_UserLoginsLoginAccount
 FOREIGN KEY (UserLoginID) REFERENCES UserLogins(UserLoginID);
+
+
+INSERT INTO  UserLogins
+(UserLoginID,Userlogin,UserPassword)
+
+VALUES  
+  (15535, 'adesanyat', 'Toronto!'), 
+  (15536, 'johnthomas', 'Samsung!'), 
+  (15537, 'toluadex', 'Bayshore!'), 
+  (15538, 'maryaddidas', 'Sagamu!'), 
+  (15539, 'emmyjoe', 'Samsung123!'); 
 ```
 
 
