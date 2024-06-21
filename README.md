@@ -14,7 +14,7 @@ The ER diagram was used to build the database.
 
 ![alt text](Entity_Relationship_Diagram.PNG)
 
-### Queries
+### Query Samples
 ```
 CREATE DATABASE Bank; 
 
@@ -25,8 +25,9 @@ Userlogin      char(15),
 UserPassword   varchar(20)
 )
 
-=QUERY(Data!A:J, "SELECT YEAR(A),SUM(I) WHERE YEAR(A) IS NOT NULL GROUP BY YEAR(A) ORDER BY SUM(I) DESC")
-=QUERY(Data!A:I, "Select G, Sum(I) where G is not null Group by G Order by Sum(I)")
+ALTER TABLE  LoginAccount
+ADD CONSTRAINT FK_UserLoginsLoginAccount
+FOREIGN KEY (UserLoginID) REFERENCES UserLogins(UserLoginID);
 ```
 
 
