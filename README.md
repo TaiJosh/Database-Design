@@ -14,7 +14,7 @@ The ER diagram was used to build the database.
 
 ![alt text](Entity_Relationship_Diagram.PNG)
 
-### Query Samples
+### Query Sample
 ```
 CREATE DATABASE Bank; 
 
