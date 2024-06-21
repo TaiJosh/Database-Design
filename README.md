@@ -16,8 +16,8 @@ The ER diagram was used to build the database.
 ### Query Samples
 #### Query 1 - Creating the database
 #### Query 2 - Creating a table
-#### Query 3 - Defining constraint
-#### Query 4 - Inserting rows in a table
+#### Query 3 - Defining constraints
+#### Query 4 - Inserting rows
 
 ```
 CREATE DATABASE Bank;
