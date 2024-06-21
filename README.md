@@ -3,7 +3,7 @@
 ### Introduction
 
 There are only two types of accounts at this time: Checking and Savings accounts. The provided column list was separated into appropriate entities (tables) with relationships between these entities defined. 
-I picked the appropriate data types for each of the columns, established data integrity rules by defining primary key, secondary key and some unique constraints.
+Appropriate data types for each of the columns were picked. Also data integrity rules were established by defining primary keys, secondary keys and some unique constraints.
 
 ### Tool
 
