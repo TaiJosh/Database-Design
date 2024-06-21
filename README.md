@@ -20,7 +20,8 @@ The ER diagram was used to build the database.
 #### Query 4 - Inserting rows in a table
 
 ```
-CREATE DATABASE Bank; 
+CREATE DATABASE Bank;
+USE Bank;
 
 CREATE TABLE UserLogins
 (
