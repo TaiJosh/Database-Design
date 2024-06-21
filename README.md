@@ -1,9 +1,9 @@
 # Database-Design
 
 ### Introduction
-
+The goal of this project is to create a database for a banking application based on Entity Relationship diagram that was given.
 There are only two types of accounts at this time: Checking and Savings accounts. The provided column list was separated into appropriate entities (tables) with relationships between these entities defined. 
-Appropriate data types for each of the columns were picked. Also data integrity rules were established by defining primary keys, secondary keys and some unique constraints.
+Appropriate data types for each of the columns were picked. Also data integrity rules were enforced by defining primary keys, secondary keys and some unique constraints.
 
 ### Tool
 
@@ -15,6 +15,10 @@ The ER diagram was used to build the database.
 ![alt text](Entity_Relationship_Diagram.PNG)
 
 ### Query Sample
+1. Creating the database
+2. Defining constarint
+3. Inserting rows in a table
+
 ```
 CREATE DATABASE Bank; 
 
