@@ -16,7 +16,15 @@ The ER diagram was used to build the database.
 
 ### Queries
 ```
-=QUERY(Data!A:I, "Select C, Sum(I) where C is not null Group by C Order by Sum(I) DESC")
+CREATE DATABASE Bank; 
+
+CREATE TABLE UserLogins
+(
+UserLoginID    smallint primary key,
+Userlogin      char(15),
+UserPassword   varchar(20)
+)
+
 =QUERY(Data!A:J, "SELECT YEAR(A),SUM(I) WHERE YEAR(A) IS NOT NULL GROUP BY YEAR(A) ORDER BY SUM(I) DESC")
 =QUERY(Data!A:I, "Select G, Sum(I) where G is not null Group by G Order by Sum(I)")
 ```
