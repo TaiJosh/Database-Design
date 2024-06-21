@@ -6,7 +6,6 @@ There are only two types of accounts being considered at this time: Checking and
 Appropriate data types for each of the columns were picked. Also data integrity rules were enforced by defining primary keys, secondary keys and some unique constraints.
 
 ### Tool
-
 MySQL Workbench
 
 ### Entity Relationship Diagram
@@ -15,10 +14,10 @@ The ER diagram was used to build the database.
 ![alt text](Entity_Relationship_Diagram.PNG)
 
 ### Query Samples
-Query 1 - Creating the database
-Query 2 - Creating a table
-Query 3 - Defining constraint
-Query 4 - Inserting rows in a table
+#### Query 1 - Creating the database
+#### Query 2 - Creating a table
+#### Query 3 - Defining constraint
+#### Query 4 - Inserting rows in a table
 
 ```
 CREATE DATABASE Bank; 
@@ -49,6 +48,5 @@ VALUES
 
 
 ### Challenges
-
 Some of the data types listed in the E-R Diagram were causing errors when running the code. For example data types smallmoney, and bit.
 So I changed data type "smallmoney" to 'decimal' and bit to 'boolean' to fix the issue.
