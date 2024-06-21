@@ -2,7 +2,7 @@
 
 ### Introduction
 The goal of this project is to create a database for a banking application based on Entity Relationship diagram that was given.
-There are only two types of accounts at this time: Checking and Savings accounts. The provided column list was separated into appropriate entities (tables) with relationships between these entities defined. 
+There are only two types of accounts being considered at this time: Checking and Savings accounts. The provided column list was separated into appropriate entities (tables) with relationships between these entities defined. 
 Appropriate data types for each of the columns were picked. Also data integrity rules were enforced by defining primary keys, secondary keys and some unique constraints.
 
 ### Tool
