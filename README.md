@@ -24,7 +24,7 @@ MySQL Workbench
 
 ### Entity Relationship Diagram
 
-![alt text](Entity_Relationship_Diagram.jpg)
+![alt text](Entity_Relationship_Diagram.PNG)
 
 This step involves exploring the dataset to answer important questions like:
 1. Which year recorded the highest revenue?
